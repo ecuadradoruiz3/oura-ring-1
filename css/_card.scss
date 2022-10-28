@@ -1,0 +1,49 @@
+.card {
+    background-color: white;
+    width: 500px;
+    overflow: hidden;
+    margin: 2rem;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    border-radius: 15px;
+
+    &__image {
+         width: 100%;
+    }
+
+    &__body {
+          padding: $spacing;
+    }
+
+    &__title {
+        margin: 0;
+        color: black;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        color: black;
+        font-weight: lighter;
+        margin: 20px auto;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    &__copy {
+          margin: 0;
+          color: $dark-grey;            
+    }
+
+    &__footer {
+        padding: 20px;
+        @include flexible;    
+    }
+
+    &--reverse {
+          background-color: #0D1623;
+          .card__title, .card__subtitle {
+                color: white;
+          }
+    }
+}

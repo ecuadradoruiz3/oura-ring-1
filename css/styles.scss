@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'mixins';
+@import 'card';
+@import 'button';
+
+body {
+     font-family: $fonts;
+     font-weight: lighter;
+     background-color: $primary-color;
+     padding: $spacing ;
+     min-height: 100vh;
+     @include flexible;
+}

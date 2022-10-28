@@ -1,0 +1,77 @@
+.card {
+  background-color: white;
+  width: 500px;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.card__image {
+  width: 100%;
+}
+.card__body {
+  padding: 20px;
+}
+.card__title {
+  margin: 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.card__subtitle {
+  margin: 0;
+  color: black;
+  font-weight: lighter;
+  margin: 20px auto;
+  font-size: 30px;
+  font-style: italic;
+}
+.card__copy {
+  margin: 0;
+  color: #999;
+}
+.card__footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card--reverse {
+  background-color: #0D1623;
+}
+.card--reverse .card__title, .card--reverse .card__subtitle {
+  color: white;
+}
+
+.button, .button--reverse {
+  color: #0D1623;
+  border: 1px solid #0D1623;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: white;
+  font-size: 14px;
+}
+.button:hover, .button--reverse:hover {
+  background-color: #0D1623;
+  color: white;
+}
+.button--reverse {
+  color: white;
+  border: 1px solid white;
+  background-color: #0D1623;
+}
+.button--reverse:hover {
+  color: #0D1623;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #E5DED3;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
